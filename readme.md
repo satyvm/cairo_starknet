@@ -16,7 +16,7 @@ then install cairo (this flags are for Apple Sillicon)
 
 running the code
 
-    cairo-compile test.cairo --output test_compiled.json
+    cairo-compile new.cairo --output new_compiled.json
 
-    cairo-run --program=test_compiled.json \
-    --print_output --layout=small
+    cairo-run --program=new_compiled.json \
+    --print_output --layout=small --program_input=puzzle_input.json
