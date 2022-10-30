@@ -1,4 +1,4 @@
-# Basics to run Cairo
+# Basics to run The 15-Puzzle Cairo Program
 
 First, 
 to create the virtual env
