@@ -13,3 +13,10 @@ then install cairo (this flags are for Apple Sillicon)
 
     CFLAGS=-I`brew --prefix gmp`/include LDFLAGS=-L`brew --prefix gmp`/lib pip3 install ecdsa fastecdsa sympy
     pip3 install cairo-lang
+
+running the code
+
+    cairo-compile test.cairo --output test_compiled.json
+
+    cairo-run --program=test_compiled.json \
+    --print_output --layout=small
